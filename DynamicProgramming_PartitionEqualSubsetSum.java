@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class DynamicProgramming_PartitionEqualSubsetSum {
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
+        Scanner sc=new xcanner(System.in);
         int n=sc.nextInt();
         int[] arr=new int[n];
         for(int i=0;i<n;i++)
